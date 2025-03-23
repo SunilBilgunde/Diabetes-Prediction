@@ -3,13 +3,13 @@ import pickle
 import numpy as np
 
 # Load the trained models and scaler
-with open("ridge_model.pkl", "rb") as f:
+with open("Ridge_model.pkl", "rb") as f:
     ridge_model = pickle.load(f)
 
-with open("lasso_model.pkl", "rb") as f:
+with open("Lasso_model.pkl", "rb") as f:
     lasso_model = pickle.load(f)
 
-with open("scaler.pkl", "rb") as f:
+with open("Scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # Function to make predictions
